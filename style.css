@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: rgb(206, 165, 90);
+    
+}
+.container {
+    border: 2px solid black;
+    padding: 40px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #FF4742, rgb(179, 93, 179));
+}
+.container h1, .entry, input[type="number"],
+.wrng, .guesses {
+    margin-bottom: 10px;
+}
+.entry input{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+.entry {
+    text-align: center;
+    font-size: 24px;
+}
+
+/* CSS */
+#btn {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+#btn:hover,
+#btn:active {
+  background-color: #e9443e;
+  background-position: 0 0;
+}
+
+
+
